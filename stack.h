@@ -7,7 +7,6 @@
 typedef struct stack
 {
 	linkedList* valuesList;
-	int* top;
 } stack;
 
 void push(stack* s, unsigned int element);
